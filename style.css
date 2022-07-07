@@ -182,7 +182,7 @@ time, mark, audio, video {
         margin-top: 0;
     }
     .logo img {
-        height: min(150px, 15vh);
+        height: min(150px, 25vh);
     }
     .logo-text {
         font-size: 5rem;
@@ -216,8 +216,4 @@ time, mark, audio, video {
         gap: 8px;
         padding-bottom: 30px;
     }
-}
-
-@media only screen and (max-width: 400px) {
-
 }
