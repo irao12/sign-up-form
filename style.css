@@ -142,6 +142,22 @@ time, mark, audio, video {
     padding-left: 10px;
 }
 
+input:focus {
+    outline-color: #1D4ED8;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 20%);
+}
+
+input.error {
+    border: 1px solid red;
+    outline-color: red;
+}
+
+.error-msg {
+    display: none;
+    margin-top: 5px;
+    color: red;
+}
+
 .button-div button {
     margin: 35px 70px 30px 70px;
     padding: 15px 45px;
