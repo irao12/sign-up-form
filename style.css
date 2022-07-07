@@ -194,10 +194,12 @@ time, mark, audio, video {
     .form-section {
         width: 100vw;
     }
-
     .form-box {
         display: flex;
         flex-direction: column;
+    }
+    .input label {
+        font-size: 1rem;
     }
     .input input {
         margin-right: 0;
