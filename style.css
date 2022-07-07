@@ -175,10 +175,13 @@ time, mark, audio, video {
     }
     .logo-section {
         width: 100vw;
-        height: 30vh;
+        height: 30%;
+        display: flex;
+        justify-content: center;
     }
     .logo {
-        margin-top: 40px;
+        margin-top: 0;
+
     }
     .form-section {
         width: 100vw;
@@ -204,4 +207,8 @@ time, mark, audio, video {
         gap: 8px;
         padding-bottom: 30px;
     }
+}
+
+@media only screen and (max-width: 400px) {
+
 }
