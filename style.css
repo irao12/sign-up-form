@@ -36,7 +36,6 @@ time, mark, audio, video {
     flex-direction: row;
     font-family: "Roboto", sans-serif;
     background-color: #F9FAFB;
-    gap: 10px;
 }
 
 .logo-section {
@@ -184,6 +183,9 @@ time, mark, audio, video {
     }
     .logo img {
         height: min(150px, 15vh);
+    }
+    .logo-text {
+        font-size: 5rem;
     }
     .credit {
         display: none;
